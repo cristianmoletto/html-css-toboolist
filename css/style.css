@@ -1,0 +1,52 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/* Fonts
+font-family: 'Arial', sans-serif;
+font-family: 'Arial Black', sans-serif;
+font-family: 'Arial Light', sans-serif;
+font-family: 'Arial CE', sans-serif;
+font-family: 'Arial CE MT Black', sans-serif;
+*/
+
+/* Header */
+
+.header {
+    padding: 10 10;
+    display: inline;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 700;
+
+}
+
+
+/* sezione centrale */
+
+.background-grey {
+    background-color: rgb(200, 196, 196);
+
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.button-section {
+    margin: 20px;
+
+}
+
+
+
+/* footer */
+
+footer {
+    height: 10px;
+
+}
