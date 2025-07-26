@@ -11,6 +11,15 @@ font-family: 'Arial Black', sans-serif;
 font-family: 'Arial Light', sans-serif;
 font-family: 'Arial CE', sans-serif;
 font-family: 'Arial CE MT Black', sans-serif;
+
+Colors:
+light-grey: rgb(247, 248, 249)
+light blue: rgb(71, 173, 241)
+purple: rgb(156, 114, 228)
+fucsia: rgb(216, 99, 161)
+orange: rgb(243, 158, 51)
+green: rgb(176, 201, 39)
+
 */
 
 /* Header */
@@ -18,8 +27,9 @@ font-family: 'Arial CE MT Black', sans-serif;
 .header {
     padding: 10 10;
     display: inline;
-    font-family: 'Arial Black', sans-serif;
-    font-weight: 700;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
 
 }
 
@@ -27,7 +37,9 @@ font-family: 'Arial CE MT Black', sans-serif;
 /* sezione centrale */
 
 .background-grey {
-    background-color: rgb(200, 196, 196);
+    background-color: rgb(247, 248, 249);
+    padding-top: 30px;
+    padding-bottom: 10px;
 
 }
 
@@ -35,10 +47,18 @@ font-family: 'Arial CE MT Black', sans-serif;
     width: 70%;
     margin: 0 auto;
     background-color: white;
+    border-radius: 5px;
 }
 
 .button-section {
-    margin: 20px;
+    padding: 10px 20px 10px 40px;
+    border-bottom: 1px solid rgb(247, 248, 249);
+
+}
+
+.button {
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
 
 }
 
@@ -47,6 +67,32 @@ font-family: 'Arial CE MT Black', sans-serif;
 /* footer */
 
 footer {
-    height: 10px;
+    height: 30px;
+    background-color:rgb(247, 248, 249); 
+
+}
+
+.list {
+    padding: 15px 15px 15px 20px;
+
+}
+
+.element {
+
+    padding: 8px 15px 8px 15px;
+
+}
+
+.triangle {
+    margin-right: 5px
+
+}
+
+.h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(55, 55, 55)
+
 
 }
