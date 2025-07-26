@@ -14,11 +14,13 @@ font-family: 'Arial CE MT Black', sans-serif;
 
 Colors:
 light-grey: rgb(247, 248, 249)
+grey: rgb(170, 175, 181)
 light blue: rgb(71, 173, 241)
 purple: rgb(156, 114, 228)
 fucsia: rgb(216, 99, 161)
 orange: rgb(243, 158, 51)
-green: rgb(176, 201, 39)
+lime: rgb(176, 201, 39)
+green: rgb(100, 192, 169)
 
 */
 
@@ -56,13 +58,23 @@ green: rgb(176, 201, 39)
 
 }
 
-.button {
+.buttons {
     border-radius: 5px;
-    padding: 4px 8px 4px 8px;
-
+    padding: 5px 8px 5px 8px;
+    font-size: 11px;
 }
 
+.btn-blue {
+    background-color: rgb(71, 173, 241);
+    color: white;
+    border: 1px solid rgb(71, 173, 241);
+}
 
+.btn-grey {
+    background-color: white;
+    border: 1px solid rgb(170, 175, 181);
+    color: rgb(170, 175, 181);
+}
 
 /* footer */
 
@@ -74,13 +86,16 @@ footer {
 
 .list {
     padding: 15px 15px 15px 20px;
+    list-style: none;
 
 }
 
 .element {
 
-    padding: 8px 15px 8px 15px;
-
+    padding: 8px 15px 8px 0px;
+    list-style: none;
+    font-weight: lighter;
+    font-size: 12px;
 }
 
 .triangle {
@@ -92,7 +107,71 @@ footer {
     font-family: 'Arial', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    color: rgb(55, 55, 55)
+    color: rgb(67, 69, 72);
+
+}
+
+.check {
+
+    margin: 0px 10px 0px 0px;
+    padding: 0px 2px 0px 2px;
+    border: 1px solid rgb(100, 192, 169);
+    color: rgb(100, 192, 169);
+    border-radius: 50%;
 
 
 }
+
+
+.cross {
+
+    margin: 0px 10px 0px 0px;
+    padding: 0px 3px 0px 3px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+
+}
+
+
+
+.chips {
+   font-size: 8px;
+   font-weight: lighter;
+   color: white;
+   background-color: black;
+   padding: 5px 8px 5px 8px;
+   border-radius: 8px;
+
+}
+
+.cp-blue {
+    background-color: rgb(71, 173, 241);
+}
+
+.cp-purple {
+    background-color: rgb(156, 114, 228)
+}
+
+.cp-fucsia {
+    background-color: rgb(216, 99, 161)
+}
+
+.cp-orange {
+    background-color: rgb(243, 158, 51)
+}
+
+.cp-lime {
+    background-color: rgb(176, 201, 39)
+}
+
+.cp-green {
+
+    background-color: rgb(100, 192, 169);
+}
+
+.cp-green {
+    background-color: rgb(176, 201, 39)
+}
+
+
